@@ -1,0 +1,36 @@
+﻿<Window x:Class="ESC_calibrating_panel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ESC_calibrating_panel"
+        mc:Ignorable="d"
+        Title="ESC calibrating panel" Height="222.8" Width="715.937" ResizeMode="NoResize">
+    <Grid Margin="0,0,3.6,0">
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,42,0,0" TextWrapping="Wrap" Text="Min PW #1" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="minPWESC1Tb" HorizontalAlignment="Left" Height="23" Margin="86,42,0,0" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC1Tb_LostFocus"/>
+        <Slider x:Name="ESC1Sld" HorizontalAlignment="Left" Margin="132,42,0,0" VerticalAlignment="Top" Width="353" ValueChanged="ESC1Sld_ValueChanged" LargeChange="10" SmallChange="1" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        <TextBox x:Name="maxPWESC1Tb" HorizontalAlignment="Left" Height="23" Margin="490,42,0,0" TextWrapping="Wrap" Text="2250" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC1Tb_LostFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="533,42,0,0" TextWrapping="Wrap" Text="Max PW #1" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="currentPWESC1Tb" HorizontalAlignment="Left" Height="23" Margin="613,42,0,0" TextWrapping="Wrap" Text="Current PW #1" VerticalAlignment="Top" Width="86" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,70,0,0" TextWrapping="Wrap" Text="Min PW #2" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="minPWESC2Tb" HorizontalAlignment="Left" Height="23" Margin="86,70,0,0" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC2Tb_LostFocus"/>
+        <Slider x:Name="ESC2Sld" HorizontalAlignment="Left" Margin="132,71,0,0" VerticalAlignment="Top" Width="353" ValueChanged="ESC2Sld_ValueChanged" LargeChange="10" SmallChange="1" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        <TextBox x:Name="maxPWESC2Tb" HorizontalAlignment="Left" Height="23" Margin="490,71,0,0" TextWrapping="Wrap" Text="2250" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC2Tb_LostFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="533,71,0,0" TextWrapping="Wrap" Text="Max PW #2" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="currentPWESC2Tb" HorizontalAlignment="Left" Height="23" Margin="613,71,0,0" TextWrapping="Wrap" Text="Current PW #2" VerticalAlignment="Top" Width="86" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,100,0,0" TextWrapping="Wrap" Text="Min PW #3" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="minPWESC3Tb" HorizontalAlignment="Left" Height="23" Margin="86,100,0,0" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC3Tb_LostFocus"/>
+        <Slider x:Name="ESC3Sld" HorizontalAlignment="Left" Margin="132,101,0,0" VerticalAlignment="Top" Width="353" ValueChanged="ESC3Sld_ValueChanged" LargeChange="10" SmallChange="1" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        <TextBox x:Name="maxPWESC3Tb" HorizontalAlignment="Left" Height="23" Margin="491,100,0,0" TextWrapping="Wrap" Text="2250" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC3Tb_LostFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="533,100,0,0" TextWrapping="Wrap" Text="Max PW #3" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="currentPWESC3Tb" HorizontalAlignment="Left" Height="23" Margin="613,101,0,0" TextWrapping="Wrap" Text="Current PW #3" VerticalAlignment="Top" Width="86" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,130,0,0" TextWrapping="Wrap" Text="Min PW #4" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="minPWESC4Tb" HorizontalAlignment="Left" Height="23" Margin="86,130,0,0" TextWrapping="Wrap" Text="600" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC4Tb_LostFocus"/>
+        <Slider x:Name="ESC4Sld" HorizontalAlignment="Left" Margin="132,131,0,0" VerticalAlignment="Top" Width="353" ValueChanged="ESC4Sld_ValueChanged" LargeChange="10" SmallChange="1" TickFrequency="1" IsSnapToTickEnabled="True"/>
+        <TextBox x:Name="maxPWESC4Tb" HorizontalAlignment="Left" Height="23" Margin="490,131,0,0" TextWrapping="Wrap" Text="2250" VerticalAlignment="Top" Width="36" LostFocus="MinMaxPWESC4Tb_LostFocus"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="533,131,0,0" TextWrapping="Wrap" Text="Max PW #4" VerticalAlignment="Top" Width="71" IsReadOnly="True" Background="#FFDAD4D4"/>
+        <TextBox x:Name="currentPWESC4Tb" HorizontalAlignment="Left" Height="23" Margin="613,131,0,0" TextWrapping="Wrap" Text="Current PW #4" VerticalAlignment="Top" Width="86" IsReadOnly="True" Background="#FFDAD4D4"/>
+
+    </Grid>
+</Window>
